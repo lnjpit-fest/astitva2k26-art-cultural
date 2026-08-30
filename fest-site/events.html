@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Events — ASTITVA '26</title>
+<meta name="description" content="Every event at ASTITVA '26 — cultural, technical, debate, e-sports, sports, literary and art. Tap register to open the form." />
+<meta name="theme-color" content="#150a24" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%23150a24'/%3E%3Ctext x='50' y='68' font-size='56' font-family='sans-serif' font-weight='bold' fill='%23ff2d8e' text-anchor='middle'%3EZ%3C/text%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<header class="header">
+  <div class="header__inner">
+    <a href="index.html" class="brand">
+      <img class="brand__logo" src="assets/img/festlogo.png" alt="Astitva '26" />
+    </a>
+
+    <nav class="nav__links" aria-label="Main">
+      <a class="nav__link" href="index.html">Home</a>
+      <a class="nav__link" href="events.html">Events</a>
+      <a class="nav__link" href="schedule.html">Schedule</a>
+      <a class="nav__link" href="index.html#gallery">Gallery</a>
+      <a class="nav__link" href="coordinators.html">Coordinators</a>
+      <a class="nav__link" href="organising-team.html">Organising Team</a>
+      <a class="nav__link" href="about-us.html">About Me</a>
+    </nav>
+
+    <div class="nav__cta">
+      <a class="btn btn--primary btn--sm" href="register.html">Get Registered</a>
+    </div>
+
+    <button class="burger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="drawer">
+  <div class="drawer__backdrop"></div>
+  <div class="drawer__panel">
+    <div class="drawer__head">
+      <span class="eyebrow">Menu</span>
+      <button class="drawer__close" aria-label="Close menu">✕</button>
+    </div>
+    <ul class="drawer__links">
+      <li><a href="index.html">Home <span class="num">01</span></a></li>
+      <li><a href="events.html">Events <span class="num">02</span></a></li>
+      <li><a href="schedule.html">Schedule <span class="num">03</span></a></li>
+      <li><a href="index.html#gallery">Gallery <span class="num">04</span></a></li>
+      <li><a href="coordinators.html">Coordinators <span class="num">05</span></a></li>
+      <li><a href="organising-team.html">Organising Team <span class="num">06</span></a></li>
+      <li><a href="about-us.html">About Me <span class="num">07</span></a></li>
+    </ul>
+    <div class="drawer__foot">
+      <a class="btn btn--primary btn--block" href="register.html">Get Registered <span class="ic">→</span></a>
+      <p class="drawer__note">04–08 Sept 2026 · LNJPIT Campus, Chhapra</p>
+    </div>
+  </div>
+</div>
+
+<main>
+<!-- ================= PAGE HEAD ================= -->
+<section class="section section--tight" style="padding-top:calc(var(--nav-h) + 2.25rem)">
+  <div class="container">
+    <div class="shead reveal" style="margin-bottom:0">
+      <div class="shead__text">
+        <span class="eyebrow">Coming soon</span>
+        <h1 class="display h1" style="font-size:clamp(2.2rem,9vw,3.4rem)">Pick your <span class="grad-text">arena</span></h1>
+        <p class="lede">The full lineup, rules and registration links for every event go live here on 01 September. Until then, registration for the listed categories is already open.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EVENTS ================= -->
+<section class="section" id="coming-soon">
+  <div class="container">
+    <div class="soon__box reveal">
+      <span class="soon__badge">Coming soon</span>
+      <h2 class="display h2">The events list drops on 01 Sept</h2>
+      <p class="lede">We're locking the final list with the college. Everything goes live together here — check back in a day or two.</p>
+      <div class="soon__dots" aria-hidden="true"><i></i><i></i><i></i></div>
+      <a class="btn btn--primary" href="register.html">Get Registered <span class="ic">→</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <!-- ============================================================
+     🔒  HIDDEN FOR NOW — "COMING SOON" IS SHOWING INSTEAD
+     TO RESTORE: delete the attribute  hidden  from the line below
+     (and delete the Coming Soon section above it).
+     ============================================================ -->
+    <div class="keep-for-later" hidden><div class="filters reveal" role="tablist" aria-label="Filter events">
+      <button class="filter active" data-filter="all">All</button>
+      <button class="filter" data-filter="cultural">Cultural</button>
+      <button class="filter" data-filter="technical">Technical</button>
+      <button class="filter" data-filter="debate">Debate</button>
+      <button class="filter" data-filter="esports">E-Sports</button>
+      <button class="filter" data-filter="sports">Sports</button>
+      <button class="filter" data-filter="literary">Literary</button>
+      <button class="filter" data-filter="art">Art &amp; Photo</button>
+    </div>
+
+    <div class="events__grid">
+
+      <!-- ---------- CULTURAL ---------- -->
+      <article class="ecard reveal" data-cat="cultural">
+        <div class="ecard__top" style="background:linear-gradient(120deg,#ff2d8e,#ff7a3d)">
+          <span class="ecard__cat">Cultural</span><span class="ecard__emoji">🎸</span>
+        </div>
+        <div class="ecard__body">
+          <h3>Battle of Bands</h3>
+          <p>Originals only. Three rounds, one stage, and a crowd that decides.</p>
+          <div class="ecard__meta"><span>16 Oct · Main Stage</span><span class="ecard__prize">₹50,000</span></div>
+          <div class="ecard__cta">
+            <a class="btn btn--primary btn--block btn--sm" href="https://docs.google.com/forms/d/e/YOUR-FORM-ID/viewform" data-form="cultural">Register <span class="ic">→</span></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="ecard reveal" data-cat="cultural">
+        <div class="ecard__top" style="background:linear-gradient(120deg,#ffc53d,#ff7a3d)">
+          <span class="ecard__cat">Cultural</span><span class="ecard__emoji">💃</span>
+        </div>
+        <div class="ecard__body">
+          <h3>Step Up Crew</h3>
+          <p>Crew of 4–12. Any style — hip hop, classical or folk fusion.</p>
+          <div class="ecard__meta"><span>17 Oct · Open Air</span><span class="ecard__prize">₹30,000</span></div>
+          <div class="ecard__cta">
+            <a class="btn btn--primary btn--block btn--sm" href="https://docs.google.com/forms/d/e/YOUR-FORM-ID/viewform" data-form="cultural">Register <span class="ic">→</span></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="ecard reveal" data-cat="cultural">
+        <div class="ecard__top" style="background:linear-gradient(120deg,#8fd44a,#22c9b6)">
+          <span class="ecard__cat">Drama</span><span class="ecard__emoji">🎭</span>
+        </div>
+        <div class="ecard__body">
+          <h3>Rang Manch</h3>
+          <p>Street play with a message. Fifteen minutes, right in the crowd.</p>
+          <div class="ecard__meta"><span>17 Oct · Quadrangle</span><span class="ecard__prize">₹20,000</span></div>
+          <div class="ecard__cta">
+            <a class="btn btn--primary btn--block btn--sm" href="https://docs.google.com/forms/d/e/YOUR-FORM-ID/viewform" data-form="cultural">Register <span class="ic">→</span></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="ecard reveal" data-cat="cultural">
+        <div class="ecard__top" style="background:linear-gradient(120deg,#22c9b6,#37b6f2)">
+          <span class="ecard__cat">Spotlight</span><span class="ecard__emoji">👑</span>
+        </div>
+        <div class="ecard__body">
+          <h3>Mr. &amp; Ms. Astitva</h3>
+          <p>Talent, wit and presence. The most contested title of the fest.</p>
+          <div class="ecard__meta"><span>18 Oct · Main Stage</span><span class="ecard__prize">₹20,000</span></div>
+          <div class="ecard__cta">
+            <a class="btn btn--primary btn--block btn--sm" href="https://docs.google.com/forms/d/e/YOUR-FORM-ID/viewform" data-form="cultural">Register <span class="ic">→</span></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="ecard reveal" data-cat="cultural">
+        <div class="ecard__top" style="background:linear-gradient(120deg,#ff2d8e,#ffc53d)">
+          <span class="ecard__cat">Comedy</span><span class="ecard__emoji">🎤</span>
+        </div>
+        <div class="ecard__body">
+          <h3>Stand-Up Night</h3>
+          <p>Five minutes of original material. Winner opens for the headliner.</p>
+          <div class="ecard__meta"><span>18 Oct · Amphitheatre</span><span class="ecard__prize">₹12,000</span></div>
+          <div class="ecard__cta">
+            <a class="btn btn--primary btn--block btn--sm" href="https://docs.google.com/forms/d/e/YOUR-FORM-ID/viewform" data-form="cultural">Register <span class="ic">→</span></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="ecard reveal" data-cat="cultural">
+        <div class="ecard__top" style="background:linear-gradient(120deg,#8250e8,#ff2d8e)">
+          <span class="ecard__cat">Music</span><span class="ecard__emoji">🎶</span>
+        </div>
+        <div class="ecard__body">
+          <h3>Solo Singing</h3>
+          <p>Any language, any genre. One song in round one, one in the final.</p>
+          <div class="ecard__meta"><span>17 Oct · Seminar Hall</span><span class="ecard__prize">₹10,000</span></div>
+          <div class="ecard__cta">
+            <a class="btn btn--primary btn--block btn--sm" href="https://docs.google.com/forms/d/e/YOUR-FORM-ID/viewform" data-form="cultural">Register <span class="ic">→</span></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- ---------- TECHNICAL ---------- -->
+      <article class="ecard reveal" data-cat="technical">
+        <div class="ecard__top" style="background:linear-gradient(120deg,#8250e8,#37b6f2)">
+          <span class="ecard__cat">Technical</span><span class="ecard__emoji">💻</span>
+        </div>
+        <div class="ecard__body">
+          <h3>HackAstitva 36H</h3>
+          <p>Sleep is optional. Build something that solves a real campus problem.</p>
+          <div class="ecard__meta"><span>16–18 Oct · Lab 4</span><span class="ecard__prize">₹40,000</span></div>
+          <div class="ecard__cta">
+            <a class="btn btn--primary btn--block btn--sm" href="https://docs.google.com/forms/d/e/YOUR-FORM-ID/viewform" data-form="technical">Register <span class="ic">→</span></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="ecard reveal" data-cat="technical">
+        <div class="ecard__top" style="background:linear-gradient(120deg,#ff7a3d,#ffc53d)">
+          <span class="ecard__cat">Coding</span><span class="ecard__emoji">⚡</span>
+        </div>
+        <div class="ecard__body">
+          <h3>Code Sprint</h3>
+          <p>Three hours, twelve problems, one leaderboard. Bring your laptop.</p>
+          <div class="ecard__meta"><span>16 Oct · Lab 2</span><span class="ecard__prize">₹15,000</span></div>
+          <div class="ecard__cta">
+            <a class="btn btn--primary btn--block btn--sm" href="https://docs.google.com/forms/d/e/YOUR-FORM-ID/viewform" data-form="technical">Register <span class="ic">→</span></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="ecard reveal" data-cat="technical">
+        <div class="ecard__top" style="background:linear-gradient(120deg,#37b6f2,#8fd44a)">
+          <span class="ecard__cat">Robotics</span><span class="ecard__emoji">🤖</span>
+        </div>
+        <div class="ecard__body">
+          <h3>Robo Wars</h3>
+          <p>15 kg of metal, one arena, last bot standing. Weight checks are strict.</p>
+          <div class="ecard__meta"><span>17 Oct · Workshop</span><span class="ecard__prize">₹25,000</span></div>
+          <div class="ecard__cta">
+            <a class="btn btn--primary btn--block btn--sm" href="https://docs.google.com/forms/d/e/YOUR-FORM-ID/viewform" data-form="technical">Register <span class="ic">→</span></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- ---------- DEBATE ---------- -->
+      <article class="ecard reveal" data-cat="debate">
+        <div class="ecard__top" style="background:linear-gradient(120deg,#8250e8,#ff2d8e)">
+          <span class="ecard__cat">Debate</span><span class="ecard__emoji">🗣️</span>
+        </div>
+        <div class="ecard__body">
+          <h3>Parliamentary Debate</h3>
+          <p>3-vs-3, British Parliamentary format. Topics dropped 15 minutes prior.</p>
+          <div class="ecard__meta"><span>16 Oct · Seminar Hall</span><span class="ecard__prize">₹15,000</span></div>
+          <div class="ecard__cta">
+            <a class="btn btn--primary btn--block btn--sm" href="https://docs.google.com/forms/d/e/YOUR-FORM-ID/viewform" data-form="debate">Register <span class="ic">→</span></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="ecard reveal" data-cat="debate">
+        <div class="ecard__top" style="background:linear-gradient(120deg,#ff2d8e,#8250e8)">
+          <span class="ecard__cat">Debate</span><span class="ecard__emoji">🔁</span>
+        </div>
+        <div class="ecard__body">
+          <h3>Turncoat Debate</h3>
+          <p>Speak for, then against. Judged on how well you switch sides.</p>
+          <div class="ecard__meta"><span>17 Oct · Room 204</span><span class="ecard__prize">₹10,000</span></div>
+          <div class="ecard__cta">
+            <a class="btn btn--primary btn--block btn--sm" href="https://docs.google.com/forms/d/e/YOUR-FORM-ID/viewform" data-form="debate">Register <span class="ic">→</span></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- ---------- E-SPORTS ---------- -->
+      <article class="ecard reveal" data-cat="esports">
+        <div class="ecard__top" style="background:linear-gradient(120deg,#150a24,#8250e8)">
+          <span class="ecard__cat">E-Sports</span><span class="ecard__emoji">🎮</span>
+        </div>
+        <div class="ecard__body">
+          <h3>BGMI Squad</h3>
+          <p>Four per squad, three matches, points across all of them.</p>
+          <div class="ecard__meta"><span>18 Oct · Auditorium</span><span class="ecard__prize">₹25,000</span></div>
+          <div class="ecard__cta">
+            <a class="btn btn--primary btn--block btn--sm" href="https://docs.google.com/forms/d/e/YOUR-FORM-ID/viewform" data-form="esports">Register <span class="ic">→</span></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="ecard reveal" data-cat="esports">
+        <div class="ecard__top" style="background:linear-gradient(120deg,#ff2d8e,#37b6f2)">
+          <span class="ecard__cat">E-Sports</span><span class="ecard__emoji">🎯</span>
+        </div>
+        <div class="ecard__body">
+          <h3>Valorant 5v5</h3>
+          <p>Single elimination, best of one until the semi-finals.</p>
+          <div class="ecard__meta"><span>18 Oct · Auditorium</span><span class="ecard__prize">₹15,000</span></div>
+          <div class="ecard__cta">
+            <a class="btn btn--primary btn--block btn--sm" href="https://docs.google.com/forms/d/e/YOUR-FORM-ID/viewform" data-form="esports">Register <span class="ic">→</span></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="ecard reveal" data-cat="esports">
+        <div class="ecard__top" style="background:linear-gradient(120deg,#22c9b6,#8250e8)">
+          <span class="ecard__cat">E-Sports</span><span class="ecard__emoji">⚽</span>
+        </div>
+        <div class="ecard__body">
+          <h3>FIFA 1v1</h3>
+          <p>Knockout bracket on console. Bring your own controller if you like.</p>
+          <div class="ecard__meta"><span>18 Oct · Auditorium</span><span class="ecard__prize">₹8,000</span></div>
+          <div class="ecard__cta">
+            <a class="btn btn--primary btn--block btn--sm" href="https://docs.google.com/forms/d/e/YOUR-FORM-ID/viewform" data-form="esports">Register <span class="ic">→</span></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- ---------- SPORTS ---------- -->
+      <article class="ecard reveal" data-cat="sports">
+        <div class="ecard__top" style="background:linear-gradient(120deg,#8fd44a,#37b6f2)">
+          <span class="ecard__cat">Sports</span><span class="ecard__emoji">🏏</span>
+        </div>
+        <div class="ecard__body">
+          <h3>Box Cricket</h3>
+          <p>Tennis ball, eight overs a side, six per team. Knockout from the start.</p>
+          <div class="ecard__meta"><span>18 Oct · Ground 2</span><span class="ecard__prize">₹15,000</span></div>
+          <div class="ecard__cta">
+            <a class="btn btn--primary btn--block btn--sm" href="https://docs.google.com/forms/d/e/YOUR-FORM-ID/viewform" data-form="sports">Register <span class="ic">→</span></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="ecard reveal" data-cat="sports">
+        <div class="ecard__top" style="background:linear-gradient(120deg,#ff7a3d,#ff2d8e)">
+          <span class="ecard__cat">Sports</span><span class="ecard__emoji">🪢</span>
+        </div>
+        <div class="ecard__body">
+          <h3>Tug of War</h3>
+          <p>Ten per team, no gloves, pure chaos. Spot entries close at 3 pm.</p>
+          <div class="ecard__meta"><span>18 Oct · Ground 1</span><span class="ecard__prize">₹8,000</span></div>
+          <div class="ecard__cta">
+            <a class="btn btn--primary btn--block btn--sm" href="https://docs.google.com/forms/d/e/YOUR-FORM-ID/viewform" data-form="sports">Register <span class="ic">→</span></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="ecard reveal" data-cat="sports">
+        <div class="ecard__top" style="background:linear-gradient(120deg,#150a24,#22c9b6)">
+          <span class="ecard__cat">Sports</span><span class="ecard__emoji">♟️</span>
+        </div>
+        <div class="ecard__body">
+          <h3>Chess Blitz</h3>
+          <p>Five minutes each, Swiss format, seven rounds in one afternoon.</p>
+          <div class="ecard__meta"><span>16 Oct · Common Room</span><span class="ecard__prize">₹6,000</span></div>
+          <div class="ecard__cta">
+            <a class="btn btn--primary btn--block btn--sm" href="https://docs.google.com/forms/d/e/YOUR-FORM-ID/viewform" data-form="sports">Register <span class="ic">→</span></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- ---------- LITERARY ---------- -->
+      <article class="ecard reveal" data-cat="literary">
+        <div class="ecard__top" style="background:linear-gradient(120deg,#22c9b6,#8fd44a)">
+          <span class="ecard__cat">Literary</span><span class="ecard__emoji">🧠</span>
+        </div>
+        <div class="ecard__body">
+          <h3>Quiz Quest</h3>
+          <p>Tech, sports, politics and pure trivia. Prelims written, finals on stage.</p>
+          <div class="ecard__meta"><span>16 Oct · Seminar Hall</span><span class="ecard__prize">₹12,000</span></div>
+          <div class="ecard__cta">
+            <a class="btn btn--primary btn--block btn--sm" href="https://docs.google.com/forms/d/e/YOUR-FORM-ID/viewform" data-form="literary">Register <span class="ic">→</span></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="ecard reveal" data-cat="literary">
+        <div class="ecard__top" style="background:linear-gradient(120deg,#ff2d8e,#8250e8)">
+          <span class="ecard__cat">Literary</span><span class="ecard__emoji">✍️</span>
+        </div>
+        <div class="ecard__body">
+          <h3>Voices · Poetry Slam</h3>
+          <p>Four minutes of original writing. Hindi or English, no props.</p>
+          <div class="ecard__meta"><span>17 Oct · Library Lawn</span><span class="ecard__prize">₹10,000</span></div>
+          <div class="ecard__cta">
+            <a class="btn btn--primary btn--block btn--sm" href="https://docs.google.com/forms/d/e/YOUR-FORM-ID/viewform" data-form="literary">Register <span class="ic">→</span></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- ---------- ART & PHOTO ---------- -->
+      <article class="ecard reveal" data-cat="art">
+        <div class="ecard__top" style="background:linear-gradient(120deg,#ffc53d,#8fd44a)">
+          <span class="ecard__cat">Art</span><span class="ecard__emoji">🎨</span>
+        </div>
+        <div class="ecard__body">
+          <h3>Canvas Clash</h3>
+          <p>Live painting on a surprise theme. Two hours, materials provided.</p>
+          <div class="ecard__meta"><span>17 Oct · Art Room</span><span class="ecard__prize">₹10,000</span></div>
+          <div class="ecard__cta">
+            <a class="btn btn--primary btn--block btn--sm" href="https://docs.google.com/forms/d/e/YOUR-FORM-ID/viewform" data-form="art">Register <span class="ic">→</span></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="ecard reveal" data-cat="art">
+        <div class="ecard__top" style="background:linear-gradient(120deg,#8250e8,#ff2d8e)">
+          <span class="ecard__cat">Photography</span><span class="ecard__emoji">📸</span>
+        </div>
+        <div class="ecard__body">
+          <h3>Lens Craft</h3>
+          <p>Shoot across campus on day one, submit three frames by midnight.</p>
+          <div class="ecard__meta"><span>16–17 Oct · Campus</span><span class="ecard__prize">₹10,000</span></div>
+          <div class="ecard__cta">
+            <a class="btn btn--primary btn--block btn--sm" href="https://docs.google.com/forms/d/e/YOUR-FORM-ID/viewform" data-form="art">Register <span class="ic">→</span></a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <p class="empty" hidden>No events in this category — try another filter.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="section section--tight">
+  <div class="container">
+    <div class="cta-band reveal">
+      <span class="eyebrow" style="color:var(--sun)">One tap away</span>
+      <h2 class="display h2" style="margin:.7rem 0 .8rem">Can't decide?<br>Register for all of it.</h2>
+      <p class="lede">Pick a category on the registration page and you're in. Free for every student.</p>
+      <div class="actions">
+        <a class="btn btn--primary btn--lg" href="register.html">Get Registered <span class="ic">→</span></a>
+        <a class="btn btn--ghost" href="schedule.html">See schedule</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="index.html" class="brand">
+          <img class="brand__logo" src="assets/img/festlogo.png" alt="Astitva '26" />
+        </a>
+        <p>The annual fest of Loknayak Jai Prakash Institute of Technology (LNJPIT), Chhapra, Bihar. <strong style="color:#fff">04–08 September 2026.</strong></p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.2.05 1.8.25 2.2.42.6.22 1 .48 1.4.9.42.42.68.82.9 1.4.17.4.37 1 .42 2.2.06 1.3.07 1.7.07 4.9s0 3.6-.07 4.9c-.05 1.2-.25 1.8-.42 2.2-.22.6-.48 1-.9 1.4-.42.42-.68.82-.9 1.4-.17.4-.37 1-.42 2.2-.06 1.3-.07 1.7-.07 4.9s0-3.6.07-4.9c.05-1.2.25-1.8.42-2.2.22-.6.48-1 .9-1.4.42-.42.82-.68 1.4-.9.4-.17 1-.37 2.2-.42 1.3-.06 1.7-.07 4.9-.07Zm0 1.8c-3.1 0-3.5 0-4.7.07-1.1.05-1.7.24-2.1.4-.5.2-.9.44-1.3.83-.4.4-.63.8-.83 1.3-.16.4-.35 1-.4 2.1C2.6 8.5 2.6 8.9 2.6 12s0 3.5.07 4.7c.05 1.1.24 1.7.4 2.1.2.5.44.9.83 1.3.4.4.8.63 1.3.83.4.16 1 .35 2.1.4 1.2.07 1.6.07 4.7.07s3.5 0 4.7-.07c1.1-.05 1.7-.24 2.1-.4.5-.2.9-.44 1.3-.83.4-.4.63-.8.83-1.3.16-.4.35-1 .4-2.1.07-1.2.07-1.6.07-4.7s0-3.5-.07-4.7c-.05-1.1-.24-1.7-.4-2.1-.2-.5-.44-.9-.83-1.3-.4-.4-.8-.63-1.3-.83-.4-.16-1-.35-2.1-.4-1.2-.07-1.6-.07-4.7-.07Zm0 3.1a4.9 4.9 0 1 1 0 9.8 4.9 4.9 0 0 1 0-9.8Zm0 1.8a3.1 3.1 0 1 0 0 6.2 3.1 3.1 0 0 0 0-6.2Zm5.1-2a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3Z"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M21.6 7.2c-.2-.9-.9-1.6-1.8-1.8C18 5 12 5 12 5s-6 0-7.8.4c-.9.2-1.6.9-1.8 1.8C2 9 2 12 2 12s0 3 .4 4.8c.2.9.9 1.6 1.8 1.8C6 19 12 19 12 19s6 0 7.8-.4c.9-.2 1.6-.9 1.8-1.8.4-1.8.4-4.8.4-4.8s0-3-.4-4.8ZM10 15.2V8.8l5.2 3.2-5.2 3.2Z"/></svg></a>
+          <a href="#" aria-label="X"><svg viewBox="0 0 24 24"><path d="M17.5 3h3.3l-7.2 8.2L21.8 21h-6.5l-5.1-6.7L4.3 21H1l7.7-8.8L1.9 3h6.6l4.6 6.1L17.5 3Zm-1.2 16h1.8L7.1 4.9H5.2L16.3 19Z"/></svg></a>
+          <a href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 1.8a8.2 8.2 0 1 1-4.2 15.2l-.4-.2-3 .8.8-2.9-.3-.4A8.2 8.2 0 0 1 12 3.8Zm4.6 11.1c-.2-.1-1.3-.6-1.5-.7-.2-.1-.4-.1-.5.1l-.7.9c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.1-.3 0-.4.1-.5l.6-.8c.1-.2.1-.3 0-.5l-.7-1.6c-.2-.4-.4-.4-.5-.4h-.5c-.2 0-.5.1-.7.4-.3.3-.9 1-.9 2.3s1 2.7 1.1 2.9c.1.2 1.8 2.9 4.5 4 2 .8 2.7.8 3.5.7.6-.1 1.3-.6 1.5-1.2.2-.6.2-1.1.1-1.2-.1-.1-.2-.2-.4-.3Z"/></svg></a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="index.html#gallery">Gallery</a></li>
+          <li><a href="coordinators.html">Coordinators</a></li>
+          <li><a href="organising-team.html">Organising Team</a></li>
+          <li><a href="about-us.html">About Me</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:astitva@lnjpit.ac.in">astitva@lnjpit.ac.in</a></li>
+          <li><a href="tel:+917488920810">+91 7488920810</a></li>
+          <li><a href="register.html#contact">Fest office</a></li>
+          <li><a href="about-us.html#contact">Reach the campus</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Fest office</h4>
+        <ul>
+          <li>Student Activity Centre</li>
+          <li>LNJPIT Campus, Chhapra</li>
+          <li>Bihar 841301</li>
+          <li>Mon–Sat · 4 pm – 7 pm</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <span>© 2026 Astitva Fest · LNJPIT Chhapra</span>
+      <span>Built by Aditya</span>
+    </div>
+    <div class="footer__wordmark" aria-hidden="true">ASTITVA</div>
+  </div>
+</footer>
+
+<div class="actionbar">
+  <div class="actionbar__inner">
+    <a class="btn btn--primary" href="register.html">Get Registered</a>
+    <a class="btn btn--ghost" href="index.html">Home</a>
+  </div>
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
