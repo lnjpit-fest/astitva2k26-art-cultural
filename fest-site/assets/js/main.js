@@ -28,6 +28,19 @@ const $  = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+/* ---------- preload heavy images in background ---------- */
+function preloadImages() {
+  // Images to preload in background (for about page and other heavy assets)
+  const imagesToPreload = [
+    "assets/img/myself.png" // About page hero image (2MB)
+  ];
+  
+  imagesToPreload.forEach(src => {
+    const img = new Image();
+    img.src = src;
+  });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   initNav();
   initCountdown();
@@ -40,6 +53,9 @@ document.addEventListener("DOMContentLoaded", () => {
   initProgress();
   initActionBar();
   initCopy();
+  
+  // Start preloading heavy images after page load
+  window.addEventListener("load", preloadImages, { once: true });
 });
 
 /* ---------- small toast (used by copy buttons) ---------- */
