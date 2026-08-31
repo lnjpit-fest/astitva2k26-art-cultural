@@ -242,11 +242,12 @@ h3{font-family:var(--f-display);font-weight:700;font-size:1.15rem;letter-spacing
   font-family:var(--f-display);font-weight:700;font-size:clamp(1.05rem,5vw,1.3rem);letter-spacing:-.02em;
   opacity:0;transform:translateX(26px);
   transition:opacity .45s var(--ease),transform .55s var(--ease),background .3s,color .3s;
+  color:var(--ink);
 }
 .drawer.open .drawer__links a{opacity:1;transform:none}
-.drawer__links a:active{background:#fff}
-.drawer__links a.active{color:var(--orange);background:#fff}
-.drawer__links .num{font-family:var(--f-mono);font-size:.7rem;color:var(--muted);letter-spacing:.1em}
+.drawer__links a:active{background:#ffeef6;color:var(--ink);transform:scale(.98)}
+.drawer__links a.active{background:#ffeef6;color:var(--pink)}
+.drawer__links .num{display:none}
 .drawer__links li:nth-child(1) a{transition-delay:.10s}
 .drawer__links li:nth-child(2) a{transition-delay:.16s}
 .drawer__links li:nth-child(3) a{transition-delay:.22s}
