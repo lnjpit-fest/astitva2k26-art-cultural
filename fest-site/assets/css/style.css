@@ -292,7 +292,15 @@ h3{font-family:var(--f-display);font-weight:700;font-size:1.15rem;letter-spacing
 .hero__title .line:nth-child(2) > span{animation-delay:.09s}
 .hero__title .line:nth-child(3) > span{animation-delay:.18s}
 @keyframes riseIn{to{transform:translateY(0)}}
-.hero__sub{max-width:34ch}
+.hero__sub{
+  max-width:34ch;
+  color:var(--ink-2);
+  font-size:1.08rem;
+  font-weight:600;
+  line-height:1.75;
+  letter-spacing:-.01em;
+  text-shadow:0 2px 16px rgba(255,255,255,.45);
+}
 
 /* countdown */
 .cd{display:grid;grid-template-columns:repeat(4,1fr);gap:.5rem;width:100%}
